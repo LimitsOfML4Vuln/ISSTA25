@@ -1,0 +1,6 @@
+wandb
+.DS_STORE
+**/__pycache__/**
+outs
+.vscode
+calculations
