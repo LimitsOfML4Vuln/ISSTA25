@@ -58,9 +58,9 @@ For the 100 functions labeled as vulnerable for RQ1 a + b (labeled_samples/\<dat
     - 1 for vulnerable
 2. vulnerable_explanation: Justification for the vulnerability label in natural language.
 3. invalid_label_reason: If the vulnerability label did not match the original label, we provide a reason.
-    - 0 for errors during patch commit identification
-    - 1 for structural changes
-    - 2 for unrelated changes (see paper).
+    - 1 for errors during patch commit identification
+    - 2 for structural changes
+    - 3 for unrelated changes (see paper).
 4. context_dependence: If the function was actually vulnerable, we determined whether the vulnerability could be determined without additional context.
     - 0 for context-dependence
     - 1 for context-independence.
